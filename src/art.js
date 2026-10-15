@@ -1,0 +1,10 @@
+export function art(k){var s='<svg class="g" viewBox="0 0 340 170" aria-hidden="true">',i;
+if(k=="net"){var n=[[50,40],[50,100],[50,140],[130,25],[130,85],[130,135],[215,50],[215,115],[290,85]];
+for(i=0;i<n.length;i++)for(var j=i+1;j<n.length;j++)if(Math.abs(n[i][0]-n[j][0])>60&&Math.abs(n[i][0]-n[j][0])<100)s+='<line x1="'+n[i][0]+'" y1="'+n[i][1]+'" x2="'+n[j][0]+'" y2="'+n[j][1]+'" stroke="var(--line)" stroke-width="1.2"/>';
+n.forEach(function(p,x){s+='<circle cx="'+p[0]+'" cy="'+p[1]+'" r="'+(x==6?9:6)+'" fill="'+(x==6?'var(--acc)':'var(--acc2)')+'"'+(x==6?' class="pulse"':'')+'/>'})}
+if(k=="priv"){for(i=0;i<6;i++){var w=[210,150,240,120,200,170][i];s+='<rect x="40" y="'+(24+i*24)+'" width="'+w+'" height="9" rx="4" fill="var(--line)"/>';if(i%2==1)s+='<rect x="'+(60+i*14)+'" y="'+(22+i*24)+'" width="64" height="13" rx="3" fill="var(--acc)" class="bar-a"/>'}}
+if(k=="rank"){for(i=0;i<5;i++)s+='<rect x="40" y="'+(22+i*27)+'" width="'+(250-i*45)+'" height="16" rx="8" fill="'+(i?'var(--line)':'var(--acc2)')+'" class="bar-a" style="animation-delay:'+i*.25+'s"/>'}
+if(k=="gauge"){s+='<path d="M70 135 A100 100 0 0 1 270 135" fill="none" stroke="var(--line)" stroke-width="16" stroke-linecap="round"/><path d="M70 135 A100 100 0 0 1 210 52" fill="none" stroke="var(--acc)" stroke-width="16" stroke-linecap="round"/><circle cx="170" cy="135" r="9" fill="var(--ink)"/><line x1="170" y1="135" x2="222" y2="68" stroke="var(--ink)" stroke-width="4" stroke-linecap="round" class="drift"/>'}
+if(k=="scatter"){s+='<line x1="36" y1="140" x2="310" y2="140" stroke="var(--line)"/><line x1="36" y1="20" x2="36" y2="140" stroke="var(--line)"/>';for(i=0;i<34;i++){var x=50+(i*53%250),y=30+(i*37%100);s+='<circle cx="'+x+'" cy="'+y+'" r="4" fill="var(--acc2)" opacity=".8" class="drift" style="animation-delay:'+(i%7)*.4+'s"/>'}}
+if(k=="tiers"){for(i=0;i<3;i++)s+='<rect x="'+(50+i*86)+'" y="'+(110-i*34)+'" width="70" height="'+(40+i*34)+'" rx="8" fill="'+(i==2?'var(--acc)':'var(--acc2)')+'" opacity="'+(.45+i*.27)+'"/>'}
+return s+'</svg>'}
