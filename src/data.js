@@ -55,8 +55,12 @@ export const liveApps = [
 // Paste each certificate link as the third item of its row. "" shows a dead "#" link.
 export const certifications = [
   ["AI Agent Engineering (in progress)", "Udacity", ""],
-  ["Azure AI Essentials Professional Certificate", "Microsoft", ""],
-  ["Build Your First AI Productivity App", "AWS Scholars Program, project badge", ""],
+  ["Azure AI Essentials Professional Certificate", "Microsoft", "https://www.linkedin.com/learning/certificates/2e1e802d01c4b94fc2acffceccc1fa2680f00ef829f608759ea293501dd63106/?trk=share_certificate&contentTrackingId=EIaddqU4Stqp%2B40q6XDwDQ%3D%3D&viewName=premium-nav-upsell-text&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text%3ANav%3AIn-Product"],
+  ["Build Your First AI Productivity App", "AWS Scholars Program, project badge", "https://cdn.getblueshift.com/bee/images/ed5b8755-0989-4944-9ca5-287bb68e4a22/AWS%20AI%20%26%20ML%20Scholarship%20Badges%20-%20Project%20-%20Build%20your%20first%20AI%20-%20Dark%403x.jpg"],
   ["Amazon Bedrock Flows Chatbot", "AWS, project completion badge", ""],
-  ["Data Science Job Simulation", "British Airways, via Forage", ""],
+  ["Data Science Job Simulation", "British Airways, via Forage", "https://www.theforage.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_6999ee5c09815524df858fef_1772291244970_completion_certificate.pdf"],
+  ["AWS AI Practitioner Challenge", "Udacity", "https://www.udacity.com/certificate/e/531e01e4-31e8-11f1-9b91-5316d187b667"],
+  ["British Airways Data Science Simulation", "Forage", "https://drive.google.com/file/d/1ia8AvSyq-D4cPVF3AkcSsjBBOP9kWXdn/view?usp=sharing"],
+  ["Supervised Learning with Scikit-Learn", "DataCamp", "https://drive.google.com/file/d/1y4r7JmSJW0T4QW57pq67OZGRYg2TUwRw/view?usp=drive_link"],
+  ["Introduction of LLM", "Online Course", "https://drive.google.com/file/d/12X01cOYI2f3inta2qcJSZRF4nvSkceXf/view?usp=drive_link"],
 ];
