@@ -4,7 +4,7 @@ const gh = "https://github.com/OrugboGodswill/";
 export const profile = {
   name: "Godswill Orugbo",
   role: "Data Scientist & Machine Learning Engineer",
-  blurb: "I build end-to-end machine learning projects, from cleaning data to explaining models and shipping them as working apps. I am now moving into AI engineering and agents for automation.",
+  blurb: "I build end-to-end machine learning models, from cleaning data to explainable results, and integrate them into software and working apps",
   photo: "/profile.jpg",
   socials: [
     ["GitHub", "https://github.com/OrugboGodswill"],
@@ -15,9 +15,10 @@ export const profile = {
 };
 
 export const about = [
-  "I take a messy question, find what the data says about it, and turn the answer into something people can use and trust.",
-  "I am a data scientist and machine learning engineer based in Effurun, Delta State, Nigeria. I like the whole path of a project: cleaning and analysing the data, building and testing the model, explaining why it decides what it decides, then shipping it as an app. My time in IT support and technical documentation in oil and gas taught me to explain technical results to people who are not technical.",
-  "Right now I am taking a Udacity course on AI agent engineering and building projects with NLP, OCR and explainable AI (SHAP).",
+  "I’m a Data Scientist and Machine Learning Engineer with a deep passion for turning messy data into models people can trust and use. I have a strong foundation in Python, Scikit-learn, TensorFlow and PyTorch; I work across the whole project, from cleaning data to explaining results with SHAP, and ship the finished models as working apps with Streamlit, Flask, and Docker.",
+  "Currently, I work as an independent data scientist and analyst, where I focus on statistical analysis and clear reporting for non-technical audiences. My earlier background in IT support and technical documentation in oil and gas taught me to explain technical results.",
+  "Outside of that, I build machine learning apps such as Sentinel IDS, a network threat detector, and a Social Media Privacy Monitor that flags data privacy violations under Nigeria’s NDPA 2023, using NLP, OCR and DistilBERT. I’m also taking a Udacity course on AI agent engineering to build agents that automate real work.",
+  "Community and teamwork have always been part of my journey. I’ve served as Co-Lead of the Google Developer Student Club at PTI and as a volunteer Technical Support Lead at TechPulse, supporting events and helping other students grow in tech.",
 ];
 
 export const skills = [
